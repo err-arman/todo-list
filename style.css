@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    width: 700px;
+    margin: 20px auto;
+
+}
+
+#list{
+    margin-top: 10px;
+}
+
+.list-item{
+    width: 300px;
+    background-color: red;
+    margin-top: 2px;
+    padding: 10px;
+    color: white;
+}
+
+.delete-item-btn {
+    margin-top: -10px;
+    text-decoration: none;
+    font-size: 32px;
+    float: right;
+    background-color: black;
+    color: white;
+}
+
+#input-Box{
+    padding: 10px;
+    outline: none;
+}
+
+#button{
+    padding: 10px;
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
