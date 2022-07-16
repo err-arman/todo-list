@@ -6,6 +6,7 @@ let showData = document.getElementById('showData');
 
 let todoItems = localStorage.getItem("todo_items");
 let arr = [];
+//if local data available then load to array;
 if (todoItems) {
     arr = JSON.parse(todoItems);
     arr.forEach(addTodoItem);
